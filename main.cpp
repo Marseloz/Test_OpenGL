@@ -52,7 +52,7 @@ int main() {
     // build and compile our shader program
     // ------------------------------------
 
-    Shader triangleShader("go2.txt", "go.txt");
+    Shader triangleShader("go2.glsl", "go.glsl");
 
     // set up vertex data (and buffer(s)) and configure vertex attributes
     // ------------------------------------------------------------------
